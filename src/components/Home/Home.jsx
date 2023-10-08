@@ -19,7 +19,7 @@ const Home = () => {
     }
     return (
         <>
-            <div className=' min-h-screen bg-hero-pattern  flex flex-col items-center justify-center'>
+            <div className=' min-h-screen bg-hero-pattern w-full mx-auto bg-no-repeat flex flex-col items-center justify-center'>
                 <h2 className='text-5xl mb-6 font-bold text-white'>Our Real EHeros</h2>
                <div >
               <form onSubmit={handleSearchEmployee} className='max-w-sm flex  w-96  mx-auto' >
